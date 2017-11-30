@@ -13,6 +13,8 @@ handles that problem.
 
 ```python
 from flask import Flask
+from serialize import Serializer
+
 app = Flask(__name__)
 ser = Serializer(app)
 
